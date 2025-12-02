@@ -729,6 +729,37 @@
         }
     }
 
+    document.addEventListener('DOMContentLoaded', function () {
+            var bannerSwiper = new Swiper('.banner-slider', {
+                direction: 'horizontal',
+                loop: true,
+                centeredSlides: true,
+
+                effect: 'fade',
+                fadeEffect: {
+                    crossFade: true,
+                },
+
+                speed: 2000,
+
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                },
+
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                    dynamicBullets: true,
+                },
+
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        });
+
     eduvibeJs.i();
 
 })(window, document, jQuery)
