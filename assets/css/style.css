@@ -1,10 +1,10 @@
 /*-- Variables --*/
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap");
 :root {
-  --color-primary: #C28D33;
-  --color-secondary: #a56d29;
+  --color-primary: #9c1856;
+  --color-secondary: #82194a;
   --color-secondary-alt: #FFF6F4;
-  --color-tertiary: #FFA41B;
+  --color-tertiary: #bd1968;
   --color-tertiary-2: #7152E9;
   --color-dark: #231F40;
   --color-body: #6F6B80;
@@ -24,14 +24,14 @@
   --color-extra07: #C6ECE8;
   --color-extra08: #C3ECCE;
   --color-success: #3EB75E;
-  --color-danger: #FF0003;
-  --color-warning: #FF8F3C;
+  --color-danger: #82194a;
+  --color-warning: #eb49a4;
   --color-info: #1BA2DB;
   --color-facebook: #3B5997;
   --color-twitter: #1BA1F2;
-  --color-youtube: #ED4141;
+  --color-youtube: #9c1856;
   --color-linkedin: #0077B5;
-  --color-pinterest: #E60022;
+  --color-pinterest: #9c1856;
   --color-instagram: #C231A1;
   --color-vimeo: #00ADEF;
   --color-twitch: #6441A3;
@@ -16644,7 +16644,7 @@ Gallery Item
         margin-left: 0; } }
 
 .eduvibe-footer-one {
-  background: #231F40; }
+  background: #3f021f; }
   .eduvibe-footer-one .shape-image {
     position: absolute;
     z-index: -1; }
