@@ -6142,7 +6142,7 @@ body.sal-disabled [data-sal|='flip'] {
           .mainmenu-nav .mainmenu li.has-droupdown > a::after {
             right: 0px; } }
     .mainmenu-nav .mainmenu li.has-droupdown .submenu {
-      min-width: 210px;
+      min-width: 330px;
       height: auto;
       position: absolute;
       top: 90%;
