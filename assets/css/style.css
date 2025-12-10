@@ -1630,7 +1630,7 @@ textarea:-ms-input-placeholder {
   margin-top: -20px; }
 
 .edu-section-gap {
-  padding: 130px 0 !important; }
+  padding: 90px 0 !important; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .edu-section-gap {
       padding: 80px 0 !important; } }
@@ -8687,7 +8687,9 @@ button.edu-btn {
         overflow: hidden;
         border-radius: 5px 5px 0 0; }
   .edu-event.event-grid-1 .inner .content {
-    padding: 30px; }
+    padding: 30px;
+    background-color: #fce7f4;
+   }
     @media only screen and (max-width: 767px) {
       .edu-event.event-grid-1 .inner .content {
         padding: 20px; } }
@@ -12604,7 +12606,7 @@ Gallery Item
       font-weight: 800;
       font-size: 40px;
       line-height: 56px;
-      color: var(--color-primary); }
+       }
     .pricing-table .pricing-header .price-wrap .duration {
       color: var(--color-primary);
       font-size: 16px;
@@ -16959,3 +16961,62 @@ Gallery Item
     display: none;
   }
 }
+
+/* Small tweaks to blend with your variables from style.css */
+  .pricing-card {
+    border-radius: 14px;
+    box-shadow: var(--shadow-primary);
+    overflow: hidden;
+    border: 0;
+  }
+  .pricing-header {
+    background: linear-gradient(90deg, rgba(156,24,86,0.95) 0%, rgba(113,82,233,0.95) 100%);
+    color: #fff;
+    padding: 18px 20px;
+  }
+  .period {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    font-weight: 700;
+    opacity: .95;
+  }
+  .price-chip {
+    background: rgba(255,255,255,0.12);
+    padding: 8px 12px;
+    border-radius: 999px;
+    display: inline-block;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 6px;
+  }
+  .register-btn {
+    background: var(--color-white);
+    color: var(--color-primary);
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 8px 14px;
+    box-shadow: var(--shadow-light);
+    border: none;
+  }
+  .register-btn:hover {
+    transform: translateY(-3px);
+  }
+  .table-pricing thead th {
+    background: linear-gradient(90deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+    border: 0;
+    font-weight: 800;
+    color: var(--color-heading);
+  }
+  .table-pricing tbody tr:hover {
+    background: rgba(121, 55, 111, 0.03);
+  }
+  .currency {
+    font-weight: 700;
+    color: var(--color-dark);
+  }
+  /* responsive tweaks */
+  @media (max-width: 767px) {
+    .period { font-size: 12px; }
+    .price-chip { font-size: 14px; padding: 6px 10px; }
+  }
