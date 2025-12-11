@@ -12604,7 +12604,7 @@ Gallery Item
       display: none; }
     .pricing-table .pricing-header .price-wrap .amount {
       font-weight: 800;
-      font-size: 40px;
+      font-size: 30px;
       line-height: 56px;
        }
     .pricing-table .pricing-header .price-wrap .duration {
@@ -17020,3 +17020,14 @@ Gallery Item
     .period { font-size: 12px; }
     .price-chip { font-size: 14px; padding: 6px 10px; }
   }
+
+.scrll {
+    height: 350px;
+    overflow-y: scroll;
+}
+.amount2 {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 56px;
+  text-align:center !important;
+}
