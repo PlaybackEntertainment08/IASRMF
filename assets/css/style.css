@@ -16970,7 +16970,7 @@ Gallery Item
     border: 0;
   }
   .pricing-header {
-    background: linear-gradient(90deg, rgba(156,24,86,0.95) 0%, rgba(113,82,233,0.95) 100%);
+    background: #3f021f;
     color: #fff;
     padding: 18px 20px;
   }
