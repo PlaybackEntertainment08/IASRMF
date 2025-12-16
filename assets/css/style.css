@@ -6106,7 +6106,8 @@ body.sal-disabled [data-sal|='flip'] {
   margin: 0;
   padding: 0;
   justify-content: center;
-  flex-wrap: wrap; }
+  /* flex-wrap: wrap;  */
+}
   .mainmenu-nav .mainmenu > li > a {
     color: white;
     font-size: 18px;
