@@ -9370,7 +9370,9 @@ button.edu-btn {
   .service-card-4:hover .inner {
     background: var(--color-primary); }
     .service-card-4:hover .inner .icon i {
-      opacity: 0; }
+      opacity: 1;
+      color: white;
+    }
     .service-card-4:hover .inner .icon .subtitle {
       opacity: 1;
       color: var(--color-white); }
