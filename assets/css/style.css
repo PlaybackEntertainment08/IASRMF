@@ -6175,15 +6175,17 @@ body.sal-disabled [data-sal|='flip'] {
           content: "\e92c";
           font-family: 'icomoon'; }
         .mainmenu-nav .mainmenu li.has-droupdown .submenu li.has-droupdown .submenu {
-          left: 100%;
+          left: auto;
           top: 90%;
+          right: 100%;
           z-index: 90;
           opacity: 0;
           visibility: hidden;
           transition: 0.3s; }
         .mainmenu-nav .mainmenu li.has-droupdown .submenu li.has-droupdown:hover .submenu {
-          left: 100%;
+          left: auto;
           top: 0;
+          right: 100%;
           z-index: 90;
           opacity: 1;
           visibility: visible; }
@@ -11172,7 +11174,7 @@ button.edu-btn {
   cursor: pointer;
   display: block;
   border-radius: 50px;
-  box-shadow: inset 0 0 0 2px #f8e3c3;
+  box-shadow: inset 0 0 0 2px #e489b4;
   z-index: 10000;
   opacity: 0;
   visibility: hidden;
